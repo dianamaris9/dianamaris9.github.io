@@ -1,6 +1,6 @@
 window.addEventListener("deviceoreintation", on_device_orientation);
 
-var rasdiu = 20;
+var radius = 20;
 
 function on_device_orientation(e){
 	document.getElementById("id_orientation").innerHTML = e.alpha.toFixed(1) + " " + e.beta.toFixed(1) + " " + e.gamma.toFixed(1);
