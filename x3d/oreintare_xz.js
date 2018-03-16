@@ -7,6 +7,7 @@ function on_device_orientation(e){
 	var viewpoint = document.getElementById(id_viewpoint);
 	var x = radius * Math.cos (e.alpha * Math.PI / 180);
 	var z = radius * Math.sin (e.alpha * Math.PI / 180);
+	document.getElementById("id_xz").innerHTML = x + " " + z;
 	viewpoint.setAttribute("positon", x + " 0 " + z);
 	viewpoint.setAttribute("orientation", "0 1 0 " + e.alpha * Math.PI / 180);
 }
