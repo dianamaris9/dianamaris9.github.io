@@ -1,4 +1,4 @@
-window.adEventListener("deviceoreintation", on_device_orientation);
+window.addEventListener("deviceoreintation", on_device_orientation);
 
 function on_device_orientation(e){
 	document.getElementById(id_orientation).innerHTML = e.alpha + " " + e.beta + " " + e.gamma;
