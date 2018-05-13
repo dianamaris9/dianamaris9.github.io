@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <x3d>
 	<head></head>
 	<body>
@@ -507,7 +508,7 @@
 				<Transform DEF='ROOF_TRANSFORM' translation='0 2.64 0'>
 			        <Shape>
 			          <Appearance>
-			            <ImageTexture url='"RoofTexture.jpg" "http://www.web3d.org/x3d/content/examples/Basic/StudentProjects/RoofTexture.jpg"'/>
+			            <ImageTexture url='"RoofTexture.jpg"'/>
 			          </Appearance>
 			          <Extrusion convex='false' creaseAngle='0.785' crossSection='-6.525 5.1 -6.525 -5.1 6.525 -5.1 6.525 2.4 3.225 2.4 3.225 5.1 -6.525 5.1' scale='1.0 1.0 1.01 1.01 0.01 0.01' solid='false' spine='0 0 0 0 0.2 0 0 0.8 0'/>
 			        </Shape>
