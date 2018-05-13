@@ -117,6 +117,8 @@
 			        </Transform>
 		    	</Transform>
 
+
+
 		    	<Transform DEF='DOOR_SIDEWALL' translation='1.35 1.4 3.25'>
 			      <Shape>
 			        <Appearance USE='WALL'/>
@@ -124,7 +126,54 @@
 			      </Shape>
 			    </Transform>
 
-			    
+
+
+			    <Transform DEF='KITCHEN_FRONT' translation='4.65 0.85 2.025'>
+			    	<Group DEF='KITCHEN_WALLS'>
+			    		<Shape DEF='UNDER_WINDOW'>
+				            <Appearance USE='WALL'/>
+				            <Box size='3.15 1.4 0.15'/>
+				        </Shape>
+
+				        <Transform DEF='LEFTOFWINDOW' translation='-1.175 1.25 0'>
+				            <Shape>
+				              <Appearance USE='WALL'/>
+				              <Box size='0.8 1.1 0.15'/>
+				            </Shape>
+				        </Transform>
+
+				        <Transform DEF='RIGHTOFWINDOW' translation='1.325 1.25 0'>
+				            <Shape>
+				              <Appearance USE='WALL'/>
+				              <Box size='0.5 1.1 0.15'/>
+				            </Shape>
+				        </Transform>
+
+				        <Transform DEF='UPPEROFWINDOW' translation='0.15 1.6 0'>
+				            <Shape>
+				              <Appearance USE='WALL'/>
+				              <Box size='1.85 0.4 0.15'/>
+				            </Shape>
+				        </Transform>
+
+				        <Transform DEF='LEFTOFDOOR' translation='-3.2 0.55 0'>
+				            <Shape>
+				              <Appearance USE='WALL'/>
+				              <Box size='0.05 2.5 0.15'/>
+				            </Shape>
+				        </Transform>
+
+				        <Transform DEF='UPPEROFDOOR' translation='-2.4 1.6 0'>
+				            <Shape>
+				              <Appearance USE='WALL'/>
+				              <Box size='1.65 0.4 0.15'/>
+				            </Shape>
+				        </Transform>
+			    	</Group>
+			    	
+			    </Transform>
+
+
 		    </Group>
 
 		</Scene>
