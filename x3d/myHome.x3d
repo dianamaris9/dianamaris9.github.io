@@ -65,51 +65,51 @@
 			        </Group>
 
 			        <Transform translation='-1.65 0.83 0'>
-			          <Group DEF='WINDOW'>
-			            <Shape>
-			              <Appearance DEF='WINDOWFRAME'>
-			                <Material diffuseColor='.2 .2 .2'/>
-			              </Appearance>
-			              <Box size='1.85 0.06 0.06'/>
-			            </Shape>
+			          	<Group DEF='WINDOW'>
+				            <Shape>
+				              <Appearance DEF='WINDOWFRAME'>
+				                <Material diffuseColor='.2 .2 .2'/>
+				              </Appearance>
+				              <Box size='1.85 0.06 0.06'/>
+				            </Shape>
 
-			            <Transform translation='0 1.24 0'>
-			              <Shape>
-			                <Appearance USE='WINDOWFRAME'/>
-			                <Box size='1.85 0.06 0.06'/>
-			              </Shape>
-			            </Transform>
+				            <Transform translation='0 1.24 0'>
+				              <Shape>
+				                <Appearance USE='WINDOWFRAME'/>
+				                <Box size='1.85 0.06 0.06'/>
+				              </Shape>
+				            </Transform>
 
-			            <Transform translation='-0.895 0.62 0'>
-			              <Shape>
-			                <Appearance USE='WINDOWFRAME'/>
-			                <Box size='0.06 1.18 0.06'/>
-			              </Shape>
-			            </Transform>
+				            <Transform translation='-0.895 0.62 0'>
+				              <Shape>
+				                <Appearance USE='WINDOWFRAME'/>
+				                <Box size='0.06 1.18 0.06'/>
+				              </Shape>
+				            </Transform>
 
-			            <Transform translation='0.895 0.62 0'>
-			              <Shape>
-			                <Appearance USE='WINDOWFRAME'/>
-			                <Box size='0.06 1.18 0.06'/>
-			              </Shape>
-			            </Transform>
+				            <Transform translation='0.895 0.62 0'>
+				              <Shape>
+				                <Appearance USE='WINDOWFRAME'/>
+				                <Box size='0.06 1.18 0.06'/>
+				              </Shape>
+				            </Transform>
 
-			            <Transform translation='0 0.62 0'>
-			              <Shape>
-			                <Appearance USE='WINDOWFRAME'/>
-			                <Box size='0.06 1.18 0.06'/>
-			              </Shape>
-			            </Transform>
+				            <Transform translation='0 0.62 0'>
+				              <Shape>
+				                <Appearance USE='WINDOWFRAME'/>
+				                <Box size='0.06 1.18 0.06'/>
+				              </Shape>
+				            </Transform>
 
-			            <Transform DEF='WINDOWGLASS' translation='0 0.62 0'>
-			              <Shape>
-			                <Appearance DEF='GLASS'>
-			                  <Material emissiveColor='0.757 0.804 0.804' shininess='0.5' transparency='0.5'/>
-			                </Appearance>
-			                <Box size='1.73 1.18 0.005'/>
-			              </Shape>
-			            </Transform>
-			          </Group>
+				            <Transform DEF='WINDOWGLASS' translation='0 0.62 0'>
+				              <Shape>
+				                <Appearance DEF='GLASS'>
+				                  <Material emissiveColor='0.757 0.804 0.804' shininess='0.5' transparency='0.5'/>
+				                </Appearance>
+				                <Box size='1.73 1.18 0.005'/>
+				              </Shape>
+				            </Transform>
+			          	</Group>
 			        </Transform>
 
 			        <Transform translation='1.9 0.83 0'>
@@ -196,84 +196,84 @@
 			            </Transform>
 			            <CylinderSensor DEF='DoorSensorFront' description='front door' maxAngle='1.57'/>
 			    	</Transform>
-			    </Transform>
+			    	</Transform>
 
 
-			    <Transform DEF='KITCHEN_WINDOW' scale='1 0.54 1' translation='0.15 0.72 0'>
-		          	<Group USE='WINDOW'/>
+				    <Transform DEF='KITCHEN_WINDOW' scale='1 0.54 1' translation='0.15 0.72 0'>
+			          	<Group USE='WINDOW'/>
+			        </Transform>
+
+
+		        	<Transform DEF='DOORSIDE' translation='-2.225 0.35 0'>
+			        	<Transform DEF='LEFTBAR' translation='0.01 0 0'>
+				            <Shape>
+				              <Appearance USE='DOOR_COLOR'/>
+				              <Box size='0.1 2.1 0.1'/>
+				            </Shape>
+			        	</Transform>
+
+				        <Transform DEF='RIGHTBAR' translation='0.6 0 0'>
+				            <Shape>
+				              <Appearance USE='DOOR_COLOR'/>
+				              <Box size='0.1 2.1 0.1'/>
+				            </Shape>
+				        </Transform>
+
+				        <Transform DEF='UPPERBAR' translation='0.325 1.0 0'>
+				            <Shape>
+				              <Appearance USE='DOOR_COLOR'/>
+				              <Box size='0.55 0.1 0.1'/>
+				            </Shape>
+				        </Transform>
+
+				        <Transform DEF='LOWERBAR' translation='0.325 -1.0 0'>
+				            <Shape>
+				              <Appearance USE='DOOR_COLOR'/>
+				              <Box size='0.55 0.1 0.1'/>
+				            </Shape>
+			        	</Transform>
+
+				        <Transform DEF='MIDDLE1BAR' translation='0.325 0.325 0'>
+				            <Shape>
+				              <Appearance USE='DOOR_COLOR'/>
+				              <Box size='0.55 0.05 0.1'/>
+				            </Shape>
+				        </Transform>
+
+				        <Transform DEF='MIDDLE2BAR' translation='0.325 -0.325 0'>
+				            <Shape>
+				              <Appearance USE='DOOR_COLOR'/>
+				              <Box size='0.55 0.05 0.1'/>
+				            </Shape>
+				        </Transform>
+
+			        	<Group DEF='SIDEGLASS'>
+				            <Transform translation='0.325 0.65 0'>
+				              <Shape>
+				                <Appearance USE='GLASS'/>
+				                <Box size='0.5 0.6 0.005'/>
+				              </Shape>
+				            </Transform>
+
+				            <Transform translation='0.325 0 0'>
+				              <Shape>
+				                <Appearance USE='GLASS'/>
+				                <Box size='0.5 0.6 0.005'/>
+				              </Shape>
+				            </Transform>
+
+				            <Transform translation='0.325 -0.65 0'>
+				              <Shape>
+				                <Appearance USE='GLASS'/>
+				                <Box size='0.5 0.6 0.005'/>
+				              </Shape>
+				            </Transform>
+			        	</Group>
+		        	</Transform>
 		        </Transform>
-
-
-		        <Transform DEF='DOORSIDE' translation='-2.225 0.35 0'>
-		        	<Transform DEF='LEFTBAR' translation='0.01 0 0'>
-			            <Shape>
-			              <Appearance USE='DOOR_COLOR'/>
-			              <Box size='0.1 2.1 0.1'/>
-			            </Shape>
-			        </Transform>
-
-			        <Transform DEF='RIGHTBAR' translation='0.6 0 0'>
-			            <Shape>
-			              <Appearance USE='DOOR_COLOR'/>
-			              <Box size='0.1 2.1 0.1'/>
-			            </Shape>
-			        </Transform>
-
-			        <Transform DEF='UPPERBAR' translation='0.325 1.0 0'>
-			            <Shape>
-			              <Appearance USE='DOOR_COLOR'/>
-			              <Box size='0.55 0.1 0.1'/>
-			            </Shape>
-			        </Transform>
-
-			        <Transform DEF='LOWERBAR' translation='0.325 -1.0 0'>
-			            <Shape>
-			              <Appearance USE='DOOR_COLOR'/>
-			              <Box size='0.55 0.1 0.1'/>
-			            </Shape>
-			        </Transform>
-
-			        <Transform DEF='MIDDLE1BAR' translation='0.325 0.325 0'>
-			            <Shape>
-			              <Appearance USE='DOOR_COLOR'/>
-			              <Box size='0.55 0.05 0.1'/>
-			            </Shape>
-			        </Transform>
-
-			        <Transform DEF='MIDDLE2BAR' translation='0.325 -0.325 0'>
-			            <Shape>
-			              <Appearance USE='DOOR_COLOR'/>
-			              <Box size='0.55 0.05 0.1'/>
-			            </Shape>
-			        </Transform>
-
-
-			        <Group DEF='SIDEGLASS'>
-			            <Transform translation='0.325 0.65 0'>
-			              <Shape>
-			                <Appearance USE='GLASS'/>
-			                <Box size='0.5 0.6 0.005'/>
-			              </Shape>
-			            </Transform>
-
-			            <Transform translation='0.325 0 0'>
-			              <Shape>
-			                <Appearance USE='GLASS'/>
-			                <Box size='0.5 0.6 0.005'/>
-			              </Shape>
-			            </Transform>
-
-			            <Transform translation='0.325 -0.65 0'>
-			              <Shape>
-			                <Appearance USE='GLASS'/>
-			                <Box size='0.5 0.6 0.005'/>
-			              </Shape>
-			            </Transform>
-			        </Group>
-
-		        </Transform>
-
 		    </Group>
+
+		    
 
 		</Scene>
 	</body>
