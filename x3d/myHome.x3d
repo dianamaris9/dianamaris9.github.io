@@ -273,6 +273,7 @@
 		        </Transform>
 		    </Group>
 
+
 		    <Transform DEF='RIGHT_SIDE' rotation='0 1 0 1.57' translation='6.15 1.4 0.95'>
 		    	<Shape DEF='WALLBEFOREDOOR'>
 				    <Appearance USE='WALL'/>
@@ -336,6 +337,40 @@
 
 				        <CylinderSensor DEF='DoorSensorKitchen' description='kitchen door' maxAngle='0' minAngle='-1.57'/>
 					</Transform>
+			    </Transform>
+		    </Transform>
+
+
+
+		    <Transform DEF='LEFTSIDE' rotation='0 1 0 -1.57' translation='-6.15 1.4 2.675'>
+		    	<Shape DEF='RIGHT_OF_WINDOW'>
+			        <Appearance USE='WALL'/>
+			        <Box size='3.95 2.5 0.15'/>
+			    </Shape>
+
+			    <Transform DEF='UPPER_OF_WINDOW' translation='-4.725 1.05 0'>
+			        <Shape>
+			          <Appearance USE='WALL'/>
+			          <Box size='5.5 0.4 0.15'/>
+			        </Shape>
+			    </Transform>
+
+			    <Transform DEF='UNDERWINDOW' translation='-4.725 -0.55 0'>
+			        <Shape>
+			          <Appearance USE='WALL'/>
+			          <Box size='5.5 1.4 0.15'/>
+			        </Shape>
+			    </Transform>
+
+			    <Transform DEF='LEFT_OF_WINDOW' translation='-5.225 0.5 0'>
+			        <Shape>
+			          <Appearance USE='WALL'/>
+			          <Box size='4.5 0.7 0.15'/>
+			        </Shape>
+			    </Transform>
+
+			    <Transform DEF='BATHROOM_WINDOW' scale='0.54 0.54 1' translation='-2.475 0.16 0'>
+			        <Group USE='WINDOW'/>
 			    </Transform>
 		    </Transform>
 
