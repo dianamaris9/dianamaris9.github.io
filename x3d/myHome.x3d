@@ -100,7 +100,7 @@
 			                <Box size='0.06 1.18 0.06'/>
 			              </Shape>
 			            </Transform>
-			            
+
 			            <Transform DEF='WINDOWGLASS' translation='0 0.62 0'>
 			              <Shape>
 			                <Appearance DEF='GLASS'>
@@ -112,6 +112,9 @@
 			          </Group>
 			        </Transform>
 
+			        <Transform translation='1.9 0.83 0'>
+			          <Group USE='WINDOW'/>
+			        </Transform>
 		    	</Transform>
 		    </Group>
 
