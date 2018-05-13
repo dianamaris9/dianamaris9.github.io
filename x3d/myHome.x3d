@@ -116,6 +116,15 @@
 			          <Group USE='WINDOW'/>
 			        </Transform>
 		    	</Transform>
+
+		    	<Transform DEF='DOOR_SIDEWALL' translation='1.35 1.4 3.25'>
+			      <Shape>
+			        <Appearance USE='WALL'/>
+			        <Box size='0.15 2.5 2.82'/>
+			      </Shape>
+			    </Transform>
+
+			    
 		    </Group>
 
 		</Scene>
