@@ -24,6 +24,50 @@
 		      </Shape>
 		    </Group>
 
+
+		    <Group DEF='FRONT_SIDE'>
+		    	<Transform DEF='STUDY_ROOM' translation='-2.4 0.15 4.725'>
+		    		<Group DEF='FRONT_WALLS'>
+			          <Transform DEF='FRONT_LOWER' translation='0 0.4 0'>
+			            <Shape>
+			              <Appearance USE='WALL'/>
+			              <Box size='7.65 0.80 0.15'/>
+			            </Shape>
+			          </Transform>
+
+			          <Transform DEF='FRONT_LEFT' translation='-3.2 1.45 0'>
+			            <Shape>
+			              <Appearance USE='WALL'/>
+			              <Box size='1.25 1.3 0.15'/>
+			            </Shape>
+			          </Transform>
+
+			          <Transform DEF='FRONT_UPPER' translation='0 2.3 0'>
+			            <Shape>
+			              <Appearance USE='WALL'/>
+			              <Box size='7.65 0.4 0.15'/>
+			            </Shape>
+			          </Transform>
+
+			          <Transform DEF='FRONT_MIDDLE' translation='0.125 1.45 0'>
+			            <Shape>
+			              <Appearance USE='WALL'/>
+			              <Box size='1.70 1.3 0.15'/>
+			            </Shape>
+			          </Transform>
+
+			          <Transform DEF='FRONT_RIGHT' translation='3.325 1.45 0'>
+			            <Shape>
+			              <Appearance USE='WALL'/>
+			              <Box size='1 1.3 0.15'/>
+			            </Shape>
+			          </Transform>
+			        </Group>
+
+			        
+		    	</Transform>
+		    </Group>
+
 		</Scene>
 	</body>
 </x3d>
