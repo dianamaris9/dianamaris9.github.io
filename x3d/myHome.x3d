@@ -181,7 +181,20 @@
 				              </Appearance>
 				            </Shape>
 			    		</Transform>
-			    		
+
+			    		<Transform DEF='DOOR_KNOP1' translation='0.2 0 0.08'>
+			              	<Shape DEF='DOOR_LOCK'>
+				                <Sphere radius='0.05'/>
+				                <Appearance DEF='DOOR_LOCK_COLOR'>
+				                  <ImageTexture DEF='DoorKnobColor' url='"DoorKnobColor.jpg" "http://www.web3d.org/x3d/content/examples/Basic/StudentProjects/DoorKnobColor.jpg"'/>
+				                </Appearance>
+			              	</Shape>
+			            </Transform>
+
+			            <Transform DEF='DOOR_KNOP2' translation='0.2 0 -0.08'>
+			              	<Shape USE='DOOR_LOCK'/>
+			            </Transform>
+			            <CylinderSensor DEF='DoorSensorFront' description='front door' maxAngle='1.57'/>
 			    	</Transform>
 			    </Transform>
 
