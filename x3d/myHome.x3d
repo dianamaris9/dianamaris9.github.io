@@ -186,7 +186,7 @@
 			              	<Shape DEF='DOOR_LOCK'>
 				                <Sphere radius='0.05'/>
 				                <Appearance DEF='DOOR_LOCK_COLOR'>
-				                  <ImageTexture DEF='DoorKnobColor' url='"DoorKnobColor.jpg" "http://www.web3d.org/x3d/content/examples/Basic/StudentProjects/DoorKnobColor.jpg"'/>
+				                  <ImageTexture DEF='DoorKnobColor' url='"DoorKnobColor.jpg"'/>
 				                </Appearance>
 			              	</Shape>
 			            </Transform>
