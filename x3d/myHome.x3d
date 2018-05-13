@@ -199,6 +199,80 @@
 			    </Transform>
 
 
+			    <Transform DEF='KITCHEN_WINDOW' scale='1 0.54 1' translation='0.15 0.72 0'>
+		          	<Group USE='WINDOW'/>
+		        </Transform>
+
+
+		        <Transform DEF='DOORSIDE' translation='-2.225 0.35 0'>
+		        	<Transform DEF='LEFTBAR' translation='0.01 0 0'>
+			            <Shape>
+			              <Appearance USE='DOOR_COLOR'/>
+			              <Box size='0.1 2.1 0.1'/>
+			            </Shape>
+			        </Transform>
+
+			        <Transform DEF='RIGHTBAR' translation='0.6 0 0'>
+			            <Shape>
+			              <Appearance USE='DOOR_COLOR'/>
+			              <Box size='0.1 2.1 0.1'/>
+			            </Shape>
+			        </Transform>
+
+			        <Transform DEF='UPPERBAR' translation='0.325 1.0 0'>
+			            <Shape>
+			              <Appearance USE='DOOR_COLOR'/>
+			              <Box size='0.55 0.1 0.1'/>
+			            </Shape>
+			        </Transform>
+
+			        <Transform DEF='LOWERBAR' translation='0.325 -1.0 0'>
+			            <Shape>
+			              <Appearance USE='DOOR_COLOR'/>
+			              <Box size='0.55 0.1 0.1'/>
+			            </Shape>
+			        </Transform>
+
+			        <Transform DEF='MIDDLE1BAR' translation='0.325 0.325 0'>
+			            <Shape>
+			              <Appearance USE='DOOR_COLOR'/>
+			              <Box size='0.55 0.05 0.1'/>
+			            </Shape>
+			        </Transform>
+
+			        <Transform DEF='MIDDLE2BAR' translation='0.325 -0.325 0'>
+			            <Shape>
+			              <Appearance USE='DOOR_COLOR'/>
+			              <Box size='0.55 0.05 0.1'/>
+			            </Shape>
+			        </Transform>
+
+
+			        <Group DEF='SIDEGLASS'>
+			            <Transform translation='0.325 0.65 0'>
+			              <Shape>
+			                <Appearance USE='GLASS'/>
+			                <Box size='0.5 0.6 0.005'/>
+			              </Shape>
+			            </Transform>
+
+			            <Transform translation='0.325 0 0'>
+			              <Shape>
+			                <Appearance USE='GLASS'/>
+			                <Box size='0.5 0.6 0.005'/>
+			              </Shape>
+			            </Transform>
+
+			            <Transform translation='0.325 -0.65 0'>
+			              <Shape>
+			                <Appearance USE='GLASS'/>
+			                <Box size='0.5 0.6 0.005'/>
+			              </Shape>
+			            </Transform>
+			        </Group>
+
+		        </Transform>
+
 		    </Group>
 
 		</Scene>
