@@ -273,7 +273,30 @@
 		        </Transform>
 		    </Group>
 
-		    
+		    <Transform DEF='RIGHT_SIDE' rotation='0 1 0 1.57' translation='6.15 1.4 0.95'>
+		    	<Shape DEF='WALLBEFOREDOOR'>
+				    <Appearance USE='WALL'/>
+				    <Box size='2.32 2.5 0.15'/>
+			    </Shape>
+
+			    <Transform DEF='WALLAFTERDOOR' translation='3.86 0 0'>
+			        <Shape>
+			          <Appearance USE='WALL'/>
+			          <Box size='3.8 2.5 0.15'/>
+			        </Shape>
+			    </Transform>
+
+			    <Transform DEF='WALLOVERDOOR' translation='1.56 1.05 0'>
+			        <Shape>
+			          <Appearance USE='WALL'/>
+			          <Box size='0.84 0.4 0.15'/>
+			        </Shape>
+			    </Transform>
+
+
+		    </Transform>
+
+
 
 		</Scene>
 	</body>
