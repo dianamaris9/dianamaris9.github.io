@@ -523,9 +523,9 @@
 			</Group>
 
 
-			<ROUTE fromField='rotation_changed' fromNode='DoorSensorFront' toField='set_rotation' toNode='FrontDoor'/>
+			<!-- <ROUTE fromField='rotation_changed' fromNode='DoorSensorFront' toField='set_rotation' toNode='FrontDoor'/>
 		    <ROUTE fromField='rotation_changed' fromNode='DoorSensorKitchen' toField='set_rotation' toNode='KitchenDoor'/>
-		    <ROUTE fromField='rotation_changed' fromNode='DoorSensorBack' toField='set_rotation' toNode='BackDoor'/>
+		    <ROUTE fromField='rotation_changed' fromNode='DoorSensorBack' toField='set_rotation' toNode='BackDoor'/> -->
 		</Scene>
 	</body>
 </x3d>
