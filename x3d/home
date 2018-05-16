@@ -2,6 +2,7 @@
 	<head></head>
 	<body>
 		<Scene>
+			<NavigationInfo avatarSize='0.01 1.7 0.2' headlight='false' speed='2' type='"EXAMINE"'/>
 			<Group def="FLOOR">
 				<shape def="floor">
 					<Appearance DEF='WALL'>
