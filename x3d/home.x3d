@@ -18,7 +18,7 @@
 		          		<ImageTexture url="FloorTexture.jpg"/>
 		        	</Appearance>
 
-		        	<IndexedFaceSet ccw='false' convex='false' coordIndex='0 1 2 3'>
+		        	<IndexedFaceSet ccw='false' convex='false' coordIndex='0 1 2'>
 		          		<Coordinate point='-6.2 0.56 4.7 -6.2 0.16 -4.7 6.2 0.16 -4.7'/>
 		        	</IndexedFaceSet>
 				</Shape>
