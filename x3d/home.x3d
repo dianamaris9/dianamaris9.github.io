@@ -24,6 +24,8 @@
 				</Shape>
 			</Group>
 
+			<Group def='front_side'>
+			</Group>
 
 
 		</Scene>
