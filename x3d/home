@@ -2,6 +2,7 @@
 	<head></head>
 	<body>
 		<Scene>
+			<NavigationInfo avatarSize='0.01 1.7 0.2' headlight='false' speed='2' type='"EXAMINE"'/>
 			<Group def="FLOOR">
 				<shape def="floor">
 					<Appearance DEF='WALL'>
@@ -10,6 +11,7 @@
 
 					<Extrusion convex='false' crossSection='-6.225 4.8 -6.225 -4.8 6.225 -4.8 6.225 2.1 1.425 2.1 1.425 4.8 -6.225 4.8' solid='false' spine='0 0.1 0 0 0.15 0'/>
 				</shape>
+
 
 				<shape def="floor_faceset">
 					<Appearance>
