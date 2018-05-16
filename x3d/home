@@ -1,0 +1,21 @@
+<x3d>
+	<head></head>
+	<body>
+		<Scene>
+			<Group def="FLOOR">
+				<shape def="floor">
+					<appearence>
+						<ImageTexture url='"FloorTexture.jpg"'/>
+					</appearence>
+
+					<IndexedFaceSet ccw='false' convex='false' coordIndex='0 1 2 3 4 5 6'>
+						
+					</IndexedFaceSet>
+				</shape>
+			</Group>
+
+
+
+		</Scene>
+	</body>
+</x3d>
