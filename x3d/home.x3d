@@ -25,7 +25,7 @@
 			</Group>
 
 			<Group def='front_side'>
-				<Transform DEF='STUDY_ROOM' translation='-2.4 0.15 4.725'>
+				<Transform DEF='STUDY_ROOM' translation='-1.4 0.15 4.725'>
 					<Group DEF='FRONT_WALLS'>
 						<Transform DEF='FRONT_LOWER' translation='0 0.4 0'>
 			            	<Shape>
