@@ -30,7 +30,7 @@
 						<Transform DEF='FRONT_LOWER' translation='0 0.4 0'>
 			            	<Shape>
 			              		<Appearance USE='WALL'/>
-			              		<Box size='7.65 0.80 0.15'/>
+			              		<Box size='8.65 0.80 0.15'/>
 			            	</Shape>
 			          	</Transform>
 
