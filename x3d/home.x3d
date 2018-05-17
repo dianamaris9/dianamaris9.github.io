@@ -25,6 +25,10 @@
 			</Group>
 
 			<Group def='front_side'>
+				<Transform DEF='STUDY_ROOM' translation='-2.4 0.15 4.725'>
+					<Group DEF='FRONT_WALLS'>
+					</Group>
+				</Transform>
 			</Group>
 
 
