@@ -27,6 +27,13 @@
 			<Group def='front_side'>
 				<Transform DEF='STUDY_ROOM' translation='-2.4 0.15 4.725'>
 					<Group DEF='FRONT_WALLS'>
+						<Transform DEF='FRONT_LOWER' translation='0 0.4 0'>
+			            	<Shape>
+			              		<Appearance USE='WALL'/>
+			              		<Box size='7.65 0.80 0.15'/>
+			            	</Shape>
+			          	</Transform>
+			          	
 					</Group>
 				</Transform>
 			</Group>
