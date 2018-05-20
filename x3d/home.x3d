@@ -117,7 +117,7 @@
 				</Transform>
 
 
-				<Transform DEF='KITCHEN_FRONT' translation='5.5 1.37 4.725'>
+				<Transform DEF='KITCHEN_FRONT' translation='5.5 1.39 4.725'>
 					<Group DEF='KITCHEN_WALLS'>
 						<Shape DEF='RIGHTOFDOOR'>
 				            <Appearance USE='WALL'/>
@@ -127,7 +127,7 @@
 				        <Transform DEF='UPPEROFDOOR' translation='-1.43 1.13 0'>
 				            <Shape>
 				              <Appearance USE='WALL'/>
-				              <Box size='1.33 0.3 0.15'/>
+				              <Box size='1.34 0.3 0.15'/>
 				            </Shape>
 				        </Transform>  
 					</Group>
