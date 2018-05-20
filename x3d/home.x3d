@@ -124,10 +124,10 @@
 				            <Box size='1.5 2.5 0.15'/>
 				        </Shape>
 
-				        <Transform DEF='UPPEROFDOOR' translation='-2.4 1.6 0'>
+				        <Transform DEF='UPPEROFDOOR' translation='1 1.4 0'>
 				            <Shape>
 				              <Appearance USE='WALL'/>
-				              <Box size='1.65 0.4 0.15'/>
+				              <Box size='1.5 0.3 0.15'/>
 				            </Shape>
 				        </Transform>  
 					</Group>
