@@ -58,7 +58,7 @@
 			          	<Transform DEF='FRONT_RIGHT' translation='3.83 1.45 0'>
 			            	<Shape>
 			              		<Appearance USE='WALL'/>
-			              		<Box size='-2 1.3 0.15'/>
+			              		<Box size='-1.97 1.3 0.15'/>
 			            	</Shape>
 			          	</Transform>
 					</Group>
