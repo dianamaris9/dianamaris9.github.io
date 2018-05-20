@@ -124,7 +124,7 @@
 				            <Box size='1.5 2.5 0.15'/>
 				        </Shape>
 
-				        <Transform DEF='UPPEROFDOOR' translation='-1.43 1.2 0'>
+				        <Transform DEF='UPPEROFDOOR' translation='-1.43 1.15 0'>
 				            <Shape>
 				              <Appearance USE='WALL'/>
 				              <Box size='1.33 0.3 0.15'/>
