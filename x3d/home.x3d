@@ -117,6 +117,22 @@
 				</Transform>
 
 
+				<Transform DEF='KITCHEN_FRONT' translation='4.65 0.85 2.025'>
+					<Group DEF='KITCHEN_WALLS'>
+						<Shape DEF='UNDER_WINDOW'>
+				            <Appearance USE='WALL'/>
+				            <Box size='3.15 1.4 0.15'/>
+				        </Shape>
+
+				        <Transform DEF='LEFTOFWINDOW' translation='-1.175 1.25 0'>
+				            <Shape>
+				              <Appearance USE='WALL'/>
+				              <Box size='0.8 1.1 0.15'/>
+				            </Shape>
+				        </Transform>
+					</Group>
+				</Transform>
+
 			</Group>
 		</Scene>
 	</body>
