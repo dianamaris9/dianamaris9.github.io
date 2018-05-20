@@ -119,7 +119,7 @@
 
 				<Transform DEF='KITCHEN_FRONT' translation='5.5 1.37 4.725'>
 					<Group DEF='KITCHEN_WALLS'>
-						<Shape DEF='UNDER_WINDOW'>
+						<Shape DEF='RIGHTOFDOOR'>
 				            <Appearance USE='WALL'/>
 				            <Box size='1.5 2.5 0.15'/>
 				        </Shape>
