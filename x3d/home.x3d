@@ -117,11 +117,11 @@
 				</Transform>
 
 
-				<Transform DEF='KITCHEN_FRONT' translation='4.65 0.85 0'>
+				<Transform DEF='KITCHEN_FRONT' translation='4.65 1.45 0'>
 					<Group DEF='KITCHEN_WALLS'>
 						<Shape DEF='UNDER_WINDOW'>
 				            <Appearance USE='WALL'/>
-				            <Box size='3.15 2.1 0.15'/>
+				            <Box size='2.15 2.1 0.15'/>
 				        </Shape>
 
 				        
