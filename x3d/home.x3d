@@ -117,7 +117,7 @@
 				</Transform>
 
 
-				<Transform DEF='KITCHEN_FRONT' translation='4.65 1.45 0'>
+				<Transform DEF='KITCHEN_FRONT' translation='-1.4 0.15 4.725'>
 					<Group DEF='KITCHEN_WALLS'>
 						<Shape DEF='UNDER_WINDOW'>
 				            <Appearance USE='WALL'/>
