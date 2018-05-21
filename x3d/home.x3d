@@ -138,11 +138,24 @@
 			    			<Shape>
 				              <Box size='1.35 2.45 0.1'/>
 				              <Appearance DEF='DOOR_COLOR'>
-				                <ImageTexture url='"door.jpg"'/>
+				                <ImageTexture url="door.jpg"/>
 				              </Appearance>
 				            </Shape>
 			    		</Transform>
 
+			    		<Transform DEF='DOOR_KNOP1' translation='0.2 0 0.08'>
+			              	<Shape DEF='DOOR_LOCK'>
+				                <Sphere radius='0.05'/>
+				                <Appearance DEF='DOOR_LOCK_COLOR'>
+				                  <ImageTexture DEF='DoorKnobColor' url="doorknob.jpg"/>
+				                </Appearance>
+			              	</Shape>
+			            </Transform>
+
+			            <Transform DEF='DOOR_KNOP2' translation='0.2 0 -0.08'>
+			              	<Shape USE='DOOR_LOCK'/>
+			            </Transform>
+			            <CylinderSensor DEF='DoorSensorFront' description='front door' maxAngle='1.57'/>
 					</Transform>
 
 				</Transform>
