@@ -133,10 +133,10 @@
 					</Group>
 
 
-					<Transform DEF='FRONT_DOOR' translation='-1.46 0 0'>
+					<Transform DEF='FRONT_DOOR' translation='-1.43 0 0'>
 						<Transform DEF='FrontDoor' center='-0.45 0 0'>
 			    			<Shape>
-				              <Box size='1.35 2.3 0.1'/>
+				              <Box size='1.35 2.4 0.1'/>
 				              <Appearance DEF='DOOR_COLOR'>
 				                <ImageTexture url='"door.jpg"'/>
 				              </Appearance>
