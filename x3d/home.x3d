@@ -162,7 +162,7 @@
 				<Transform DEF='RIGHT_SIDE' rotation='0 1 0 1.57' translation='6.2 1.4 -0.3'>
 					<Shape DEF='WALLBEFOREDOOR'>
 					    <Appearance USE='WALL'/>
-					    <Box size='9 2.5 0.15'/>
+					    <Box size='10 2.5 0.15'/>
 			    	</Shape>
 				</Transform>
 
