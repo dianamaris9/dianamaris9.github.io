@@ -159,7 +159,7 @@
 					</Transform>
 				</Transform>
 
-				<Transform DEF='RIGHT_SIDE' rotation='0 1 0 1.57' translation='6.2 1.4 0.90'>
+				<Transform DEF='RIGHT_SIDE' rotation='0 1 0 1.57' translation='6.2 1.55 0.90'>
 					<Shape DEF='WALLBEFOREDOOR'>
 					    <Appearance USE='WALL'/>
 					    <Box size='8 2.5 0.15'/>
