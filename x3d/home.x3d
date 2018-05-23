@@ -265,17 +265,11 @@
 			    		</Transform>
 			    	</Transform>
 
-			    	<Transform DEF='LEFTUPPERWALL' translation='-4.825 1.05 0'>
-				        <Shape>
-				          <Appearance USE='WALL'/>
-				          <Box size='3.85 0.4 0.15'/>
-				        </Shape>
-			    	</Transform>
 
 				    <Transform DEF='LEFT_OF_DOOR' translation='-4.075 -0.2 0'>
 				        <Shape>
-				          <Appearance USE='WALL'/>
-				          <Box size='0.55 2.1 0.15'/>
+				          	<Appearance USE='WALL'/>
+				          	<Box size='3 2.1 0.15'/>
 				        </Shape>
 				    </Transform>
 
