@@ -272,7 +272,7 @@
 				        </Shape>
 			    	</Transform>
 
-				    <Transform DEF='LEFT_OF_DOOR' translation='-4.1 -0.2 0'>
+				    <Transform DEF='LEFT_OF_DOOR' translation='-3 -0.2 0'>
 				        <Shape>
 				          	<Appearance USE='WALL'/>
 				          	<Box size='3 2.1 0.15'/>
