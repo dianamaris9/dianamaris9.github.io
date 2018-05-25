@@ -268,14 +268,14 @@
 			    	<Transform DEF='LEFTUPPERWALL' translation='-4.825 1.05 0'>
 				        <Shape>
 					          <Appearance USE='WALL'/>
-					          <Box size='4.24 0.4 0.15'/>
+					          <Box size='4.23 0.4 0.15'/>
 				        </Shape>
 			    	</Transform>
 
 				    <Transform DEF='LEFT_OF_DOOR' translation='-5.3 -0.2 0'>
 				        <Shape>
 				          	<Appearance USE='WALL'/>
-				          	<Box size='3.17 2.1 0.15'/>
+				          	<Box size='3.19 2.1 0.15'/>
 				        </Shape>
 				    </Transform>
 
