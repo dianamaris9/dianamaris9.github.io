@@ -7,7 +7,7 @@
 			<Group def="FLOOR">
 				<Shape def="floor">
 					<Appearance def="WALL">
-		          		<ImageTexture url="wall.jpg"/>
+		          		<ImageTexture url='"wall.jpg"'/>
 		        	</Appearance>
 					<!-- <Extrusion convex='false' crossSection='-6.225 4.8 -6.225 -4.8 6.225 -4.8 -6.225 4.8' solid='false' spine='0 0.1 0 0 0.15 0'/> -->
 					<Extrusion convex='false' crossSection='-6.225 4.8 -6.225 -4.8 6.225 -4.8 6.225 2.1 1.425 2.1 1.425 4.8 -6.225 4.8' solid='false' spine='0 0.1 0 0 0.15 0'/>
@@ -16,7 +16,7 @@
 
 				<Shape def="floor_faceset">
 					<Appearance>
-		          		<ImageTexture url="floor.jpg"/>
+		          		<ImageTexture url='"floor.jpg"'/>
 		        	</Appearance>
 
 		        	<IndexedFaceSet ccw='false' convex='false' coordIndex='0 1 2 3 4 5 6'>
