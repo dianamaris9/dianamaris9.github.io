@@ -323,12 +323,12 @@
 				        </Shape>				
 			    	</Transform>
 
-			    	<!-- <Shape DEF='CEILING_FACESET'>
+			    	<Shape DEF='CEILING_FACESET'>
 				        <Appearance USE='WALL'/>
-				        <IndexedFaceSet ccw='false' convex='false' coordIndex='0 1 2 3 4 5 6' solid='false'>
+				        <IndexedFaceSet ccw='false' convex='false' coordIndex='0 1 2 3' solid='false'>
 				         	<Coordinate point='-6.2 2.63 4.7 -6.2 2.63 -4.7 6.2 2.63 -4.7 6.2 2.63 4.7'/>
 				        </IndexedFaceSet>
-			    	</Shape> -->
+			    	</Shape>
 				</Group>
 
 		</Scene>
