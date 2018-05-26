@@ -1,8 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <x3d>
 	<head></head>
 	<body>
 		<Scene>
 			<NavigationInfo avatarSize='0.01 1.7 0.2' headlight='false' speed='2' type='"EXAMINE"'/>
+
 			<Group def="FLOOR">
 				<Shape def="floor">
 					<Appearance def='WALL'>
@@ -23,6 +25,8 @@
 		        	</IndexedFaceSet>
 				</Shape>
 			</Group>
+
+
 
 			<Group def='front_side'>
 				<Transform DEF='STUDY_ROOM' translation='-1.4 0.15 4.725'>
