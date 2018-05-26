@@ -10,7 +10,7 @@
 		          		<ImageTexture url="wall.jpg"/>
 		        	</Appearance>
 
-					<Extrusion convex='false' crossSection='-6.225 4.8 -6.225 -4.8 6.225 -4.8 6.225 4.8' solid='true' spine='0 0.1 0.15 0'/>
+					<Extrusion convex='false' crossSection='-6.225 4.8 -6.225 -4.8 6.225 -4.8 6.225 4.8' solid='false' spine='0 0.1 0.15 0'/>
 				</Shape>
 
 
