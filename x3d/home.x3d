@@ -9,8 +9,8 @@
 					<Appearance def="WALL">
 		          		<ImageTexture url='"wall.jpg"'/>
 		        	</Appearance>
-					<!-- <Extrusion convex='false' crossSection='-6.225 4.8 -6.225 -4.8 6.225 -4.8 -6.225 4.8' solid='false' spine='0 0.1 0 0 0.15 0'/> -->
-					<Extrusion convex='false' crossSection='-6.225 4.8 -6.225 -4.8 6.225 -4.8 6.225 2.1 1.425 2.1 1.425 4.8 -6.225 4.8' solid='false' spine='0 0.1 0 0 0.15 0'></Extrusion>
+					<Extrusion convex='false' crossSection='-6.225 4.8 -6.225 -4.8 6.225 -4.8 -6.225 4.8' solid='false' spine='0 0.1 0 0 0.15 0'/>
+					<!-- <Extrusion convex='false' crossSection='-6.225 4.8 -6.225 -4.8 6.225 -4.8 6.225 2.1 1.425 2.1 1.425 4.8 -6.225 4.8' solid='false' spine='0 0.1 0 0 0.15 0'></Extrusion> -->
 				</Shape>
 
 
@@ -20,15 +20,15 @@
 		        	</Appearance>
 
 		        	<IndexedFaceSet ccw='false' convex='false' coordIndex='0 1 2 3 4 5 6'>
-		          		<!-- <Coordinate point='-6.2 0.16 4.7 -6.2 0.16 -4.7 6.2 0.16 -4.7 6.2 0.16 4.7'/> -->
-		          		<Coordinate point='-6.2 0.56 4.7 -6.2 0.16 -4.7 6.2 0.16 -4.7 6.2 0.16 2.0 1.4 0.16 2.0 1.4 0.16 4.7 -6.2 0.16 4.7'/>
+		          		<Coordinate point='-6.2 0.16 4.7 -6.2 0.16 -4.7 6.2 0.16 -4.7 6.2 0.16 4.7'/>
+		          		<!-- <Coordinate point='-6.2 0.56 4.7 -6.2 0.16 -4.7 6.2 0.16 -4.7 6.2 0.16 2.0 1.4 0.16 2.0 1.4 0.16 4.7 -6.2 0.16 4.7'/> -->
 		        	</IndexedFaceSet>
 				</Shape>
 			</Group>
 
 
 
-			<!-- <Group def='front_side'>
+			<Group def='front_side'>
 				<Transform DEF='STUDY_ROOM' translation='-1.4 0.15 4.725'>
 					<Group DEF='FRONT_WALLS'>
 						<Transform DEF='FRONT_LOWER' translation='0 0.4 0'>
@@ -305,7 +305,7 @@
 				         	<Coordinate point='-6.2 2.63 4.7 -6.2 2.63 -4.7 6.2 2.63 -4.7 6.2 2.63 4.7'/>
 				        </IndexedFaceSet>
 			    	</Shape>
-				</Group> -->
+				</Group>
 
 		</Scene>
 </x3d>
