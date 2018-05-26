@@ -295,9 +295,9 @@
 					</Transform>
 
 
-					 <Transform DEF='LEFT_OF_DOOR' translation='1 1.5 1'>
+					 <Transform DEF='WALL2' translation='-4.5 1.5 1.5'>
 				        <Shape>
-				          	<Appearance USE='WALL'/>
+				          	<Appearance USE='Wall2'/>
 				          	<Box size='2.5 2.3 0.15'/>
 				        </Shape>
 				    </Transform>
