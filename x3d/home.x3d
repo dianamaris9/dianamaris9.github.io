@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <x3d>
 	<head></head>
-	<body>
 		<Scene>
 			<NavigationInfo avatarSize='0.01 1.7 0.2' headlight='false' speed='2' type='"EXAMINE"'/>
 
@@ -323,7 +322,7 @@
 				          	<Appearance>
 				            	<ImageTexture url="roof.jpg"/>
 				          	</Appearance>
-				          	<Extrusion convex='false' creaseAngle='1' crossSection='-6.525 5.1 -6.525 -5.1 6.525 -5.1 6.525 5.1' scale='1.0 1.0 1.01 1.01 0.01 0.01' solid='false' spine='0 0 0 0 0.2 0 0 0.8 0'/>
+				          	<Extrusion convex='false' creaseAngle='1' crossSection='-6.525 5.1 -6.525 -5.1 6.525 -5.1 6.525 5.1' scale='1.0 1.0 0.01 0.01' solid='false' spine='0 0 0 0 0.2 0 0 0.8 0'/>
 				        </Shape>				
 			    	</Transform>
 
@@ -336,5 +335,4 @@
 				</Group>
 
 		</Scene>
-	</body>
 </x3d>
