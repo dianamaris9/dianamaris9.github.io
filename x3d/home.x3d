@@ -287,8 +287,8 @@
 
 
 				<Transform DEF='INSIDE_WALLS' translation='0 0.01 0'>
-					<Transform DEF='RIGHT_SIDE' rotation='0 1 0 1.57' translation='-1.2 1.4 0.5'>
-						<Shape DEF='WALLBEFOREDOOR'>
+					<Transform DEF='WALL1' rotation='0 1 0 1.57' translation='-1.2 1.4 1'>
+						<Shape DEF='Wall1'>
 							 <Appearance USE='WALL'/>
 							 <Box size='3 2.5 0.15'/>
 					    </Shape>
