@@ -281,7 +281,7 @@
 				</Transform>
 
 
-				<!-- <Transform DEF='INSIDE_WALLS' translation='0 0.01 0'>
+				<Transform DEF='INSIDE_WALLS' translation='0 0.01 0'>
 					<Shape DEF='BEDROOM_CORIDOR'>
 				        <Appearance USE='WALL'/>
 				        <Extrusion convex='false' crossSection='-2.075 -4.650 -1.925 -4.650 -1.925 -0.600 1.425 -0.600 1.425 -0.250 1.275 -0.250 1.275 -0.450 -2.200 -0.450 -2.200 -0.600 -2.075 -0.600 -2.075 -4.650' solid='false' spine='0.0 0.14 0.0 0.0 2.65 0.0'/>
@@ -291,19 +291,19 @@
 				        <Appearance USE='WALL'/>
 				        <Extrusion convex='false' crossSection='-6.075 -0.600 -4.175 -0.600 -4.175 -1.300 -3.125 -1.300 -3.125 -0.600 -3.0 -0.600 -3.0 -0.450 -3.225 -0.450 -3.225 -1.200 -4.075 -1.200 -4.075 -0.600 -3.775 -0.600 -3.775 -0.450 -3.875 -0.450 -3.875 -0.375 -4.025 -0.375 -4.025 -0.450 -6.075 -0.450 -6.075 -0.600' solid='false' spine='0.0 0.14 0.0 0.0 2.65 0.0'/>
 			    	</Shape>
-				</Transform> -->
+				</Transform>
 
 
 
-				<Group DEF='ROOF'>
-					<!-- <Transform DEF='ROOF_TRANSFORM' translation='0 2.64 0'>
+				<!-- <Group DEF='ROOF'>
+					<Transform DEF='ROOF_TRANSFORM' translation='0 2.64 0'>
 				        <Shape>
 				          	<Appearance>
 				            	<ImageTexture url='"RoofTexture.jpg"'/>
 				          	</Appearance>
 				          	<Extrusion convex='false' creaseAngle='0.785' crossSection='-6.525 5.1 -6.525 -5.1 6.525 -5.1 6.525 5.1' scale='1.0 1.0 1.01 1.01 0.01 0.01' solid='false' spine='0 0 0 0 0.2 0 0 0.8 0'/>
 				        </Shape>				
-			    	</Transform> -->
+			    	</Transform>
 
 			    	<Shape DEF='CEILING_FACESET'>
 				        <Appearance USE='WALL'/>
@@ -311,7 +311,7 @@
 				         	<Coordinate point='-6.2 2.63 4.7 -6.2 2.63 -4.7 6.2 2.63 -4.7 6.2 2.63 4.7'/>
 				        </IndexedFaceSet>
 			    	</Shape>
-				</Group>
+				</Group> -->
 
 
 			</Group>
