@@ -295,7 +295,7 @@
 					</Transform>
 
 
-					 <Transform DEF='WALL2' translation='-4.3 1.5 0'>
+					 <Transform DEF='WALL2' translation='-4.5 1.5 1'>
 				        <Shape>
 				          	<Appearance USE='WALL'/>
 				          	<Box size='3 2.3 0.15'/>
