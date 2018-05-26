@@ -287,7 +287,7 @@
 
 
 				<Transform DEF='INSIDE_WALLS' translation='0 0.01 0'>
-					<Transform DEF='WALL1' rotation='0 1 0 1.57' translation='-1.8 1.5 3'>
+					<Transform DEF='WALL1' rotation='0 1 0 1.57' translation='-1.6 1.5 3.5'>
 						<Shape DEF='Wall1'>
 							 <Appearance USE='WALL'/>
 							 <Box size='3 2.5 0.15'/>
