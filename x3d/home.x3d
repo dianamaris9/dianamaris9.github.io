@@ -158,13 +158,16 @@
 			            <CylinderSensor DEF='DoorSensorFront' description='front door' maxAngle='1.57'/>
 					</Transform>
 				</Transform>
+			</Group>
 
-				<Transform DEF='RIGHT_SIDE' rotation='0 1 0 1.57' translation='6.2 1.4 0'>
-					<Shape DEF='WALLBEFOREDOOR'>
-					    <Appearance USE='WALL'/>
-					    <Box size='9.3 2.5 0.15'/>
-			    	</Shape>
-				</Transform>
+
+
+			<Transform DEF='RIGHT_SIDE' rotation='0 1 0 1.57' translation='6.2 1.4 0'>
+				<Shape DEF='WALLBEFOREDOOR'>
+					 <Appearance USE='WALL'/>
+					 <Box size='9.3 2.5 0.15'/>
+			    </Shape>
+			</Transform>
 
 
 				<Transform DEF='LEFTSIDE' rotation='0 1 0 -1.57' translation='-6.15 1.4 2.675'>
@@ -328,8 +331,6 @@
 			    	</Shape>
 				</Group> -->
 
-
-			</Group>
 		</Scene>
 	</body>
 </x3d>
