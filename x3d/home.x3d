@@ -303,7 +303,7 @@
 				    </Transform>
 
 
-				    <Transform DEF='WALL2' translation='-4 1.5 -1.7'>
+				    <Transform DEF='WALL2' translation='-3.8 1.5 -1.6'>
 				        <Shape>
 				          	<Appearance USE='WALL'/>
 				          	<Box size='5 2.3 0.15'/>
