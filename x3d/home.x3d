@@ -310,7 +310,7 @@
 				        </Shape>
 				    </Transform>
 
-				    <Transform DEF='WALL4' rotation='0 1 0 1.57' translation='2 1.5 -2'>
+				    <Transform DEF='WALL4' rotation='0 1 0 1.57' translation='2 1.5 -3'>
 						<Shape>
 							 <Appearance USE='WALL'/>
 							 <Box size='3 2.3 0.15'/>
