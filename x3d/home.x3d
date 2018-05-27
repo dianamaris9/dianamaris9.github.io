@@ -318,14 +318,14 @@
 					</Transform>
 				</Transform>
 
-				<!-- <Group DEF='ROOF'>
+				<Group DEF='ROOF'>
 					<Transform DEF='ROOF_TRANSFORM' translation='0 2.64 0'>
-				        <Shape>
+				        <!-- <Shape>
 				          	<Appearance>
 				            	<ImageTexture url="roof.jpg"/>
 				          	</Appearance>
 				          	<Extrusion convex='false' creaseAngle='0.785' crossSection='-6.525 5.1 -6.525 -5.1 6.525 -5.1 6.525 5.1' scale='1.0 1.0 1.01 1.01 0.01 0.01' solid='false'/>
-				        </Shape>				
+				        </Shape>	 -->			
 			    	</Transform>
 
 			    	<Shape DEF='CEILING_FACESET'>
@@ -334,6 +334,6 @@
 				         	<Coordinate point='-6.2 2.63 4.7 -6.2 2.63 -4.7 6.2 2.63 -4.7 6.2 2.63 4.7'/>
 				        </IndexedFaceSet>
 			    	</Shape>
-				</Group> -->
+				</Group>
 		</Scene>
 </x3d>
