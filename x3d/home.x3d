@@ -27,7 +27,7 @@
 
 
 			<Group def='front_side'>
-				<Transform DEF='STUDY_ROOM' translation='-1.4 0.15 4.725'>
+				<Transform DEF='Front_Side' translation='-1.4 0.15 4.725'>
 					<Group DEF='FRONT_WALLS'>
 						<Transform DEF='FRONT_LOWER' translation='0 0.4 0'>
 			            	<Shape>
@@ -69,7 +69,7 @@
 			          	<Group DEF='WINDOW'>
 				            <Shape>
 				              	<Appearance DEF='WINDOWFRAME'>
-				                	<Material diffuseColor='.2 .2 .2'/>
+				                	<Material diffuseColor='.3 .2 .2'/>
 				              	</Appearance>
 				              	<Box size='1.85 0.06 0.06'/>
 				            </Shape>
