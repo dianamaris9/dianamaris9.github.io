@@ -325,8 +325,7 @@
 				            	<ImageTexture url="roof.jpg"/>
 				          	</Appearance>
 
-					        <!-- <Pyramid ccw='true' height='6' lit='true' solid='false' useGeoCache='true' xbottom='6' xoff='1' xtop='2' ybottom='6' yoff='1' ytop='2'> -->
-					        <Extrusion creaseAngle='1' crossSection='-38 0 38 0 0 -26' spine='0 0 0 0 0 2'/>
+					        <Pyramid ccw='true' height='6' lit='true' solid='false' useGeoCache='true' xbottom='6' xoff='6' xtop='6' ybottom='6' yoff='6' ytop='6'>
 				        </Shape>			
 			    	</Transform>
 
