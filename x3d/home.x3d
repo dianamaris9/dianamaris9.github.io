@@ -325,7 +325,10 @@
 				            	<ImageTexture url="roof.jpg"/>
 				          	</Appearance>
 
-					        <Pyramid ccw='true' height='6' lit='true' solid='false' useGeoCache='true' xbottom='6' xoff='3' xtop='4' ybottom='6' yoff='3' ytop='4'></Pyramid>
+					        <!-- <Pyramid ccw='true' height='6' lit='true' solid='false' useGeoCache='true' xbottom='6' xoff='3' xtop='4' ybottom='6' yoff='3' ytop='4'></Pyramid> -->
+					        <IndexedFaceSet coordIndex='0 1 2 -1 1 3 2 -1 2 3 0 -1 3 1 0'>
+								<Coordinate point='0 0 0 10 0 0 5 0 8.3 5 8.3 2.8'/>
+							</IndexedFaceSet> 
 				        </Shape>			
 			    	</Transform>
 
