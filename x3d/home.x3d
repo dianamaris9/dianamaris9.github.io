@@ -325,7 +325,7 @@
 				            	<ImageTexture url="roof.jpg"/>
 				          	</Appearance>
 
-					        <Pyramid ccw='true' height='2' lit='true' solid='true' useGeoCache='true' xbottom='-6.525' xoff='0.25' xtop='0.5' ybottom='6.525' yoff='0.25' ytop='0.5'>
+					        <Pyramid ccw='true' height='2' lit='true' solid='true' useGeoCache='true' xbottom='1' xoff='0.25' xtop='0.5' ybottom='1' yoff='0.25' ytop='0.5'>
 					        </Pyramid>	
 				        </Shape>			
 			    	</Transform>
