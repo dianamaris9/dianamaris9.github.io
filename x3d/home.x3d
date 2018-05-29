@@ -327,7 +327,7 @@
 				          	<Extrusion convex='false' creaseAngle='0.785' crossSection='-6.525 5.1 -6.525 -5.1 6.525 -5.1 6.525 5.1' scale='1.0 1.0 1.01 1.01 0.01 0.01' solid='false'/>
 				        </Shape>	 -->
 
-				        <Pyramid ccw='true' height='1' lit='true' solid='true' useGeoCache='true' xbottom='1' xoff='0.25' xtop='0.5' ybottom='1' yoff='0.25' ytop='0.5'></Pyramid>			
+				        <Pyramid ccw='true' height='1' lit='true' solid='true' useGeoCache='true' xbottom='-6.525' xoff='0.25' xtop='0.5' ybottom='6.525' yoff='0.25' ytop='0.5'></Pyramid>			
 			    	</Transform>
 
 			    	<Shape DEF='CEILING_FACESET'>
