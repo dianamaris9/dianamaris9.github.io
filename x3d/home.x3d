@@ -325,7 +325,7 @@
 				            	<ImageTexture url="roof.jpg"/>
 				          	</Appearance>
 
-							<Cone bottomRadius="2" height="1"></Cone>
+							<Cone bottomRadius="6" height="1"></Cone>
 				        </Shape>			
 			    	</Transform>
 
