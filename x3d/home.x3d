@@ -69,7 +69,7 @@
 			          	<Group DEF='WINDOW'>
 				            <Shape>
 				              	<Appearance DEF='WINDOWFRAME'>
-				                	<Material diffuseColor='.3 .2 .2'/>
+				                	<Material diffuseColor='.3 .3 .3'/>
 				              	</Appearance>
 				              	<Box size='1.85 0.06 0.06'/>
 				            </Shape>
