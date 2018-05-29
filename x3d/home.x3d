@@ -319,13 +319,13 @@
 				</Transform>
 
 				<Group DEF='ROOF'>
-					<Transform DEF='ROOF_TRANSFORM' translation='-6 2.64 0'>
+					<Transform DEF='ROOF_TRANSFORM' translation='0 2.64 0'>
 				        <Shape>
 				          	<Appearance>
 				            	<ImageTexture url="roof.jpg"/>
 				          	</Appearance>
 
-							<Cone bottomRadius="2" height="1"> 
+							<Cone bottomRadius="2" height="1"></Cone>
 				        </Shape>			
 			    	</Transform>
 
