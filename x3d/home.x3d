@@ -319,16 +319,17 @@
 				</Transform>
 
 				<Group DEF='ROOF'>
-					<Transform DEF='ROOF_TRANSFORM' translation='0 2.64 0'>
+					<Transform DEF='ROOF_TRANSFORM' translation='-6 2.64 0'>
 				        <Shape>
 				          	<Appearance>
 				            	<ImageTexture url="roof.jpg"/>
 				          	</Appearance>
 
-					        <!-- <Pyramid ccw='true' height='6' lit='true' solid='false' useGeoCache='true' xbottom='6' xoff='3' xtop='4' ybottom='6' yoff='3' ytop='4'></Pyramid> -->
-					        <IndexedFaceSet coordIndex='0 1 2 -1 1 3 2 -1 2 3 0 -1 3 1 0'>
+					        <!-- <IndexedFaceSet coordIndex='0 1 2 -1 1 3 2 -1 2 3 0 -1 3 1 0'>
 								<Coordinate point='0 0 0 10 0 0 5 0 8.3 5 8.3 2.8'/>
-							</IndexedFaceSet> 
+							</IndexedFaceSet> -->
+
+							<Cone bottomRadius="2" height="1"> 
 				        </Shape>			
 			    	</Transform>
 
