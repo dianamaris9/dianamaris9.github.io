@@ -326,8 +326,6 @@
 				          	</Appearance>
 
 				          	<Extrusion convex='false' creaseAngle='0.785' crossSection='-6.525 5.1 -6.525 -5.1 6.525 -5.1 6.525 5.1 -6.525 5.1' scale='1.0 1.0 1.01 1.01 0.01 0.01' solid='false' spine='0 0 0 0 0.2 0 0 0.8 0'/>
-
-							<!-- <Cone bottomRadius="7.5" height="1"></Cone> -->
 				        </Shape>			
 			    	</Transform>
 
@@ -338,5 +336,8 @@
 				        </IndexedFaceSet>
 			    	</Shape>
 				</Group>
+
+				<ROUTE fromField='rotation_changed' fromNode='DoorSensorFront' toField='set_rotation' toNode='FrontDoor'/>
+				<ROUTE fromField='rotation_changed' fromNode='DoorSensorBack' toField='set_rotation' toNode='BackDoor'/>
 		</Scene>
 </x3d>
