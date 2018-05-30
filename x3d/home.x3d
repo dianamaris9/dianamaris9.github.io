@@ -138,7 +138,7 @@
 					<Transform DEF='FRONT_DOOR' translation='-1.39 0 0'>
 						<Transform DEF='FrontDoor' center='-0.45 0 0'>
 			    			<Shape>
-				              <Box size='1.35 2.2 0.1'/>
+				              <Box size='1.35 2.4 0.1'/>
 				              <Appearance DEF='DOOR_COLOR'>
 				                <ImageTexture url="door.jpg"/>
 				              </Appearance>
