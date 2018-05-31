@@ -1,4 +1,3 @@
-<!-- <?xml version="1.0" encoding="UTF-8"?> -->
 <x3d>
 	<head></head>
 		<Scene>
@@ -119,8 +118,8 @@
 				</Transform>
 
 
-				<Transform DEF='KITCHEN_FRONT' translation='5.5 1.40 4.725'>
-					<Group DEF='KITCHEN_WALLS'>
+				<Transform DEF='SECOND_FRONT' translation='5.5 1.40 4.725'>
+					<Group>
 						<Shape DEF='RIGHTOFDOOR'>
 				            <Appearance USE='WALL'/>
 				            <Box size='1.5 2.5 0.15'/>
